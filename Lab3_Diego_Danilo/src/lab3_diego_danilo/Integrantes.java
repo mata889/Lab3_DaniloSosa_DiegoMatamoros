@@ -7,20 +7,17 @@ package lab3_diego_danilo;
 
 import java.util.Date;
 
-/**
- *
- * @author Danilo Sosa
- */
+
 public class Integrantes {
     
-    String nombre, apellido, bestia;
+    String nombre, apellido, bestia,raza;
     double altura, poder, defensa, curacion;
     Date nacimiento;
 
     public Integrantes() {
     }
     
-    public Integrantes(String nombre, String apellido, String bestia, double altura, double poder, double defensa, double curacion, Date nacimiento) {
+    public Integrantes(String nombre,String raza, String apellido, String bestia, double altura, double poder, double defensa, double curacion, Date nacimiento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.bestia = bestia;
@@ -29,6 +26,15 @@ public class Integrantes {
         this.defensa = defensa;
         this.curacion = curacion;
         this.nacimiento = nacimiento;
+        this.raza=raza;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
     }
 
     public String getNombre() {
