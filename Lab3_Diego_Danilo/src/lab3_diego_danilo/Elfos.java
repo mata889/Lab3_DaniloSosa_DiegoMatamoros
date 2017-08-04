@@ -11,16 +11,8 @@ package lab3_diego_danilo;
  */
 public class Elfos extends Integrantes {
 
-    public String arma,nombre;
-
-    public Elfos(String arma, String nombre) {
-        this.arma = arma;
-        this.nombre = nombre;
-    }
-
-    public Elfos() {
-        super();
-    }
+    public String arma;
+    double ataque=443,defensa=150,curacion=335;
 
     public Elfos(String arma) {
         this.arma = arma;
@@ -34,11 +26,33 @@ public class Elfos extends Integrantes {
         this.arma = arma;
     }
 
-    
-    
+    public double getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(double ataque) {
+        this.ataque = ataque;
+    }
+
+    public double getDefensa() {
+        return defensa;
+    }
+
+    public void setDefensa(double defensa) {
+        this.defensa = defensa;
+    }
+
+    public double getCuracion() {
+        return curacion;
+    }
+
+    public void setCuracion(double curacion) {
+        this.curacion = curacion;
+    }
+
     @Override
     public String toString() {
-        return "Elfos{" + "arma=" + arma + '}';
+        return super.toString();
     }
     
     

@@ -10,6 +10,7 @@ import java.util.Random;
 
 public class Bestia {
    Random random=new Random();
+   String animal;
    int garras;
    boolean veneno;
    int vida=50+random.nextInt(100);
@@ -17,10 +18,26 @@ public class Bestia {
     public Bestia() {
     }
 
-    public Bestia(int garras, boolean veneno, int vida) {
+    public Bestia(String animal, int garras, boolean veneno) {
+        this.animal = animal;
         this.garras = garras;
         this.veneno = veneno;
-        this.vida = vida;
+    }
+
+    public Random getRandom() {
+        return random;
+    }
+
+    public void setRandom(Random random) {
+        this.random = random;
+    }
+
+    public String getAnimal() {
+        return animal;
+    }
+
+    public void setAnimal(String animal) {
+        this.animal = animal;
     }
 
     public int getGarras() {
@@ -45,13 +62,15 @@ public class Bestia {
 
     public void setVida(int vida) {
         this.vida = vida;
-        
     }
 
     @Override
     public String toString() {
-        return "Bestia{" + "random=" + random + ", garras=" + garras + ", veneno=" + veneno + ", vida=" + vida + '}';
+        return animal;
     }
+
+    
+    
     
     
    

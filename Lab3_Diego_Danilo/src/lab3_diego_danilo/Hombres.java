@@ -14,15 +14,10 @@ public class Hombres extends Integrantes {
     public String espada;
     public String lanza;
     public String arco;
+    double ataque=150,defensa=140,curacion=50;
 
     public Hombres() {
         super();
-    }
-
-    public Hombres(String espada, String lanza, String arco) {
-        this.espada = espada;
-        this.lanza = lanza;
-        this.arco = arco;
     }
 
     public String getEspada() {
@@ -49,11 +44,33 @@ public class Hombres extends Integrantes {
         this.arco = arco;
     }
 
-    
+    public double getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(double ataque) {
+        this.ataque = ataque;
+    }
+
+    public double getDefensa() {
+        return defensa;
+    }
+
+    public void setDefensa(double defensa) {
+        this.defensa = defensa;
+    }
+
+    public double getCuracion() {
+        return curacion;
+    }
+
+    public void setCuracion(double curacion) {
+        this.curacion = curacion;
+    }
 
     @Override
     public String toString() {
-        return "Hombres{" + "espada=" + espada + ", lanza=" + lanza + ", arco=" + arco + '}';
+        return super.toString();
     }
     
     
