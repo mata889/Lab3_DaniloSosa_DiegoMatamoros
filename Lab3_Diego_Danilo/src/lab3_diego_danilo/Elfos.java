@@ -14,6 +14,10 @@ public class Elfos extends Integrantes {
     public String arma;
     double ataque=443,defensa=150,curacion=335;
 
+    public Elfos() {
+        super();
+    }
+
     public Elfos(String arma) {
         this.arma = arma;
     }
