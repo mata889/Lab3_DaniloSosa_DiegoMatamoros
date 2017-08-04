@@ -11,7 +11,12 @@ package lab3_diego_danilo;
  */
 public class Elfos extends Integrantes {
 
-    public String arma;
+    public String arma,nombre;
+
+    public Elfos(String arma, String nombre) {
+        this.arma = arma;
+        this.nombre = nombre;
+    }
 
     public Elfos() {
         super();

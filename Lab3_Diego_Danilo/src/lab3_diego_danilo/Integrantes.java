@@ -10,31 +10,23 @@ import java.util.Date;
 
 public class Integrantes {
     
-    String nombre, apellido, bestia,raza;
-    double altura, poder, defensa, curacion;
+    String nombre, apellido, bestia,raza,altura;
+    double poder, defensa, curacion;
     Date nacimiento;
 
     public Integrantes() {
     }
-    
-    public Integrantes(String nombre,String raza, String apellido, String bestia, double altura, double poder, double defensa, double curacion, Date nacimiento) {
+
+    public Integrantes(String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.bestia = bestia;
+        this.raza = raza;
         this.altura = altura;
         this.poder = poder;
         this.defensa = defensa;
         this.curacion = curacion;
         this.nacimiento = nacimiento;
-        this.raza=raza;
-    }
-
-    public String getRaza() {
-        return raza;
-    }
-
-    public void setRaza(String raza) {
-        this.raza = raza;
     }
 
     public String getNombre() {
@@ -61,11 +53,19 @@ public class Integrantes {
         this.bestia = bestia;
     }
 
-    public double getAltura() {
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(String altura) {
         this.altura = altura;
     }
 
@@ -100,6 +100,8 @@ public class Integrantes {
     public void setNacimiento(Date nacimiento) {
         this.nacimiento = nacimiento;
     }
+    
+    
 
     @Override
     public String toString() {
