@@ -27,12 +27,212 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jDateChooser1 = new com.toedter.calendar.JDateChooser();
-        jButton1 = new javax.swing.JButton();
+        jd_pueblos = new javax.swing.JDialog();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel3 = new javax.swing.JPanel();
+        jd_integrantes = new javax.swing.JDialog();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        bt_elfos = new javax.swing.JButton();
+        bt_enanos = new javax.swing.JButton();
+        bt_hobbit = new javax.swing.JButton();
+        bt_hombre = new javax.swing.JButton();
+        bt_maiar = new javax.swing.JButton();
+        jd_elfos = new javax.swing.JDialog();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
+        jPanel4 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        bt_pueblos = new javax.swing.JButton();
+        bt_bestias = new javax.swing.JButton();
+        bt_lugares = new javax.swing.JButton();
+        bt_simulaciones = new javax.swing.JButton();
+        bt_integrantes = new javax.swing.JButton();
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 746, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 565, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Crear", jPanel1);
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 746, Short.MAX_VALUE)
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 565, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Modificar", jPanel2);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 746, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 565, Short.MAX_VALUE)
+        );
+
+        jTabbedPane1.addTab("Eliminar", jPanel3);
+
+        javax.swing.GroupLayout jd_pueblosLayout = new javax.swing.GroupLayout(jd_pueblos.getContentPane());
+        jd_pueblos.getContentPane().setLayout(jd_pueblosLayout);
+        jd_pueblosLayout.setHorizontalGroup(
+            jd_pueblosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane1)
+        );
+        jd_pueblosLayout.setVerticalGroup(
+            jd_pueblosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane1)
+        );
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel2.setText("Integrantes");
+
+        bt_elfos.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_elfos.setText("Elfos");
+
+        bt_enanos.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_enanos.setText("Enanos");
+
+        bt_hobbit.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_hobbit.setText("Hobbit");
+
+        bt_hombre.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_hombre.setText("Hombre");
+
+        bt_maiar.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_maiar.setText("Maiar");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(bt_elfos)
+                        .addGap(30, 30, 30)
+                        .addComponent(bt_enanos)
+                        .addGap(36, 36, 36)
+                        .addComponent(bt_hobbit)
+                        .addGap(31, 31, 31)
+                        .addComponent(bt_hombre)
+                        .addGap(28, 28, 28)
+                        .addComponent(bt_maiar))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(199, 199, 199)
+                        .addComponent(jLabel2)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel2)
+                .addGap(59, 59, 59)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_elfos)
+                    .addComponent(bt_enanos)
+                    .addComponent(bt_hobbit)
+                    .addComponent(bt_hombre)
+                    .addComponent(bt_maiar))
+                .addContainerGap(53, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jd_integrantesLayout = new javax.swing.GroupLayout(jd_integrantes.getContentPane());
+        jd_integrantes.getContentPane().setLayout(jd_integrantesLayout);
+        jd_integrantesLayout.setHorizontalGroup(
+            jd_integrantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        jd_integrantesLayout.setVerticalGroup(
+            jd_integrantesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 611, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 465, Short.MAX_VALUE)
+        );
+
+        jTabbedPane2.addTab("Crear", jPanel4);
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 611, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 465, Short.MAX_VALUE)
+        );
+
+        jTabbedPane2.addTab("Modificar", jPanel5);
+
+        javax.swing.GroupLayout jd_elfosLayout = new javax.swing.GroupLayout(jd_elfos.getContentPane());
+        jd_elfos.getContentPane().setLayout(jd_elfosLayout);
+        jd_elfosLayout.setHorizontalGroup(
+            jd_elfosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane2)
+        );
+        jd_elfosLayout.setVerticalGroup(
+            jd_elfosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane2)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("jButton1");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabel1.setText("MENU");
+
+        bt_pueblos.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_pueblos.setText("Crear Pueblos");
+        bt_pueblos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_pueblosMouseClicked(evt);
+            }
+        });
+
+        bt_bestias.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_bestias.setText("Crear Bestias");
+
+        bt_lugares.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_lugares.setText("Crear Lugares");
+
+        bt_simulaciones.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_simulaciones.setText("Simulaciones");
+
+        bt_integrantes.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        bt_integrantes.setText("Crear Integrantes");
+        bt_integrantes.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_integrantesMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -41,25 +241,60 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(64, 64, 64)
-                        .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(191, 191, 191)
+                        .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(214, 214, 214)
-                        .addComponent(jButton1)))
-                .addContainerGap(316, Short.MAX_VALUE))
+                        .addGap(52, 52, 52)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(bt_lugares)
+                            .addComponent(bt_pueblos))
+                        .addGap(143, 143, 143)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bt_bestias)
+                            .addComponent(bt_simulaciones)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(182, 182, 182)
+                        .addComponent(bt_integrantes)))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(62, 62, 62)
-                .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(74, 74, 74)
-                .addComponent(jButton1)
-                .addContainerGap(249, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(55, 55, 55)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_pueblos)
+                    .addComponent(bt_bestias))
+                .addGap(18, 18, 18)
+                .addComponent(bt_integrantes)
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_lugares)
+                    .addComponent(bt_simulaciones))
+                .addContainerGap(165, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bt_pueblosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_pueblosMouseClicked
+
+        jd_pueblos.setModal(true);
+        jd_pueblos.pack();
+        jd_pueblos.setLocationRelativeTo(this);
+        jd_pueblos.setVisible(true);
+
+    }//GEN-LAST:event_bt_pueblosMouseClicked
+
+    private void bt_integrantesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_integrantesMouseClicked
+
+        jd_integrantes.setModal(true);
+        jd_integrantes.pack();
+        jd_integrantes.setLocationRelativeTo(this);
+        jd_integrantes.setVisible(true);
+
+    }//GEN-LAST:event_bt_integrantesMouseClicked
 
     /**
      * @param args the command line arguments
@@ -72,7 +307,7 @@ public class Principal extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -97,7 +332,28 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
+    private javax.swing.JButton bt_bestias;
+    private javax.swing.JButton bt_elfos;
+    private javax.swing.JButton bt_enanos;
+    private javax.swing.JButton bt_hobbit;
+    private javax.swing.JButton bt_hombre;
+    private javax.swing.JButton bt_integrantes;
+    private javax.swing.JButton bt_lugares;
+    private javax.swing.JButton bt_maiar;
+    private javax.swing.JButton bt_pueblos;
+    private javax.swing.JButton bt_simulaciones;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JDialog jd_elfos;
+    private javax.swing.JDialog jd_integrantes;
+    private javax.swing.JDialog jd_pueblos;
     // End of variables declaration//GEN-END:variables
 }
