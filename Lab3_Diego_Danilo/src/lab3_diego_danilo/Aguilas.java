@@ -19,10 +19,19 @@ public class Aguilas extends Bestia{
         super();
     }
 
+    
     public Aguilas(String nombre, String color) {
         this.nombre = nombre;
         this.color = color;
     }
+
+    public Aguilas(String nombre, String color, String animal, int garras, boolean veneno) {
+        super(animal, garras, veneno);
+        this.nombre = nombre;
+        this.color = color;
+    }
+
+    
 
     public String getNombre() {
         return nombre;

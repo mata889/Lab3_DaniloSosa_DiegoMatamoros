@@ -16,6 +16,18 @@ public class Dragones extends Bestia {
         super();
     }
 
+    
+    public Dragones(String Longitud) {
+        this.Longitud = Longitud;
+    }
+
+    public Dragones(String Longitud, String animal, int garras, boolean veneno) {
+        super(animal, garras, veneno);
+        this.Longitud = Longitud;
+    }
+
+    
+
     public String getLongitud() {
         return Longitud;
     }

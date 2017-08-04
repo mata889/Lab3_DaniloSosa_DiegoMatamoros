@@ -13,6 +13,18 @@ public class Balrogs extends Bestia{
         super();
     }
 
+    
+    public Balrogs(String latigo) {
+        this.latigo = latigo;
+    }
+
+    public Balrogs(String latigo, String animal, int garras, boolean veneno) {
+        super(animal, garras, veneno);
+        this.latigo = latigo;
+    }
+
+    
+
     public String getLatigo() {
         return latigo;
     }

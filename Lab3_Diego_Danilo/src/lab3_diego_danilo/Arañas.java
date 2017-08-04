@@ -17,9 +17,19 @@ public class Arañas extends Bestia{
         super();
     }
 
-    public Arañas(String Sexo) {
+    
+    public Arañas(String nombre, String Sexo) {
+        this.nombre = nombre;
         this.Sexo = Sexo;
     }
+
+    public Arañas(String nombre, String Sexo, String animal, int garras, boolean veneno) {
+        super(animal, garras, veneno);
+        this.nombre = nombre;
+        this.Sexo = Sexo;
+    }
+
+    
 
     public String getSexo() {
         return Sexo;

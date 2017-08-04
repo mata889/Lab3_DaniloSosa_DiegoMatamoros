@@ -16,6 +16,18 @@ public class Gondor extends Lugar{
         super();
     }
 
+    
+    public Gondor(int parajes) {
+        this.parajes = parajes;
+    }
+
+    public Gondor(int parajes, int extension, int numeroInt, String lugar) {
+        super(extension, numeroInt, lugar);
+        this.parajes = parajes;
+    }
+
+    
+
     public int getParajes() {
         return parajes;
     }

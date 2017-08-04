@@ -5,6 +5,8 @@
  */
 package lab3_diego_danilo;
 
+import java.util.Date;
+
 
 public class Maiar extends Integrantes{
     
@@ -16,10 +18,19 @@ public class Maiar extends Integrantes{
         super();
     }
 
+    
     public Maiar(String baston, String Sombrero) {
         this.baston = baston;
         this.Sombrero = Sombrero;
     }
+
+    public Maiar(String baston, String Sombrero, String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
+        super(nombre, apellido, bestia, raza, altura, poder, defensa, curacion, nacimiento);
+        this.baston = baston;
+        this.Sombrero = Sombrero;
+    }
+
+    
 
     public String getBaston() {
         return baston;

@@ -5,6 +5,8 @@
  */
 package lab3_diego_danilo;
 
+import java.util.Date;
+
 /**
  *
  * @author Danilo Sosa
@@ -17,11 +19,18 @@ public class Elfos extends Integrantes {
     public Elfos() {
         super();
     }
+    
 
     public Elfos(String arma) {
         this.arma = arma;
     }
 
+    public Elfos(String arma, String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
+        super(nombre, apellido, bestia, raza, altura, poder, defensa, curacion, nacimiento);
+        this.arma = arma;
+    }
+
+    
     public String getArma() {
         return arma;
     }

@@ -16,6 +16,18 @@ public class Mordor extends Lugar {
         super();
     }
 
+    
+    public Mordor(int NumeroGuardian) {
+        this.NumeroGuardian = NumeroGuardian;
+    }
+
+    public Mordor(int NumeroGuardian, int extension, int numeroInt, String lugar) {
+        super(extension, numeroInt, lugar);
+        this.NumeroGuardian = NumeroGuardian;
+    }
+
+    
+
     public int getNumeroGuardian() {
         return NumeroGuardian;
     }

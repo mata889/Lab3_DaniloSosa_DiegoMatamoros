@@ -5,6 +5,8 @@
  */
 package lab3_diego_danilo;
 
+import java.util.Date;
+
 /**
  *
  * @author Family
@@ -17,6 +19,18 @@ public class Hobbits extends Integrantes{
     public Hobbits() {
         super();
     }
+    
+
+    public Hobbits(String anillo) {
+        this.anillo = anillo;
+    }
+
+    public Hobbits(String anillo, String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
+        super(nombre, apellido, bestia, raza, altura, poder, defensa, curacion, nacimiento);
+        this.anillo = anillo;
+    }
+
+   
 
     public String getAnillo() {
         return anillo;

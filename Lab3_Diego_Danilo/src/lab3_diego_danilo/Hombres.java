@@ -5,6 +5,8 @@
  */
 package lab3_diego_danilo;
 
+import java.util.Date;
+
 /**
  *
  * @author Family
@@ -19,6 +21,24 @@ public class Hombres extends Integrantes {
     public Hombres() {
         super();
     }
+
+    
+
+    
+    public Hombres(String espada, String lanza, String arco) {
+        this.espada = espada;
+        this.lanza = lanza;
+        this.arco = arco;
+    }
+
+    public Hombres(String espada, String lanza, String arco, String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
+        super(nombre, apellido, bestia, raza, altura, poder, defensa, curacion, nacimiento);
+        this.espada = espada;
+        this.lanza = lanza;
+        this.arco = arco;
+    }
+
+    
 
     public String getEspada() {
         return espada;

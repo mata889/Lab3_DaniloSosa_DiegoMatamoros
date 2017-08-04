@@ -1,5 +1,7 @@
 package lab3_diego_danilo;
 
+import java.util.Date;
+
 public class Enanos extends Integrantes {
 
     public String barba;
@@ -10,6 +12,16 @@ public class Enanos extends Integrantes {
         super();
     }
 
+   
+
+    public Enanos(String barba, String nombre, String apellido, String bestia, String raza, String altura, double poder, double defensa, double curacion, Date nacimiento) {
+        super(nombre, apellido, bestia, raza, altura, poder, defensa, curacion, nacimiento);
+        this.barba = barba;
+    }
+
+    
+
+    
     public Enanos(String barba, String hacha) {
         this.barba = barba;
         this.hacha = hacha;

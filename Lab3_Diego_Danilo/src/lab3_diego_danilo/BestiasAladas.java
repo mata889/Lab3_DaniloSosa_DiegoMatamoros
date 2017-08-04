@@ -12,9 +12,17 @@ public class BestiasAladas extends Bestia {
         super();
     }
 
+    
     public BestiasAladas(String velocidad) {
         this.velocidad = velocidad;
     }
+
+    public BestiasAladas(String velocidad, String animal, int garras, boolean veneno) {
+        super(animal, garras, veneno);
+        this.velocidad = velocidad;
+    }
+
+    
 
     public String getVelocidad() {
         return velocidad;

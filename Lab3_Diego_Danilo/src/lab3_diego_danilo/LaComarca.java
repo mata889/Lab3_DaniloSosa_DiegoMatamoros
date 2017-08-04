@@ -8,13 +8,21 @@ package lab3_diego_danilo;
 
 public class LaComarca extends Lugar{
     int numeroCasa;
+
     public LaComarca() {
         super();
     }
 
+    
     public LaComarca(int numeroCasa) {
         this.numeroCasa = numeroCasa;
     }
+
+    public LaComarca(int numeroCasa, int extension, int numeroInt, String lugar) {
+        super(extension, numeroInt, lugar);
+        this.numeroCasa = numeroCasa;
+    }
+    
 
     public int getNumeroCasa() {
         return numeroCasa;
