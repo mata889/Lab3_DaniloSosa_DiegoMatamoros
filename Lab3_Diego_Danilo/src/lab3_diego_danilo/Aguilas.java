@@ -42,7 +42,7 @@ public class Aguilas extends Bestia{
 
     @Override
     public String toString() {
-        return "Aguilas{" + "nombre=" + nombre + ", color=" + color + '}';
+        return super.toString();
     }
     
     

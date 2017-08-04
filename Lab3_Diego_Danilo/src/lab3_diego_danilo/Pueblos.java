@@ -34,7 +34,7 @@ public class Pueblos {
 
     @Override
     public String toString() {
-        return "Pueblos{" + "nombre=" + nombre + ", integrantes=" + integrantes + '}';
+        return super.toString();
     }
     
     

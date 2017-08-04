@@ -10,6 +10,7 @@ public class Maiar extends Integrantes{
     
     public String baston;
     public String Sombrero;
+    double ataque=0,defensa=0,curacion=0;
 
     public Maiar() {
         super();
@@ -36,11 +37,33 @@ public class Maiar extends Integrantes{
         this.Sombrero = Sombrero;
     }
 
-    
+    public double getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(double ataque) {
+        this.ataque = ataque;
+    }
+
+    public double getDefensa() {
+        return defensa;
+    }
+
+    public void setDefensa(double defensa) {
+        this.defensa = defensa;
+    }
+
+    public double getCuracion() {
+        return curacion;
+    }
+
+    public void setCuracion(double curacion) {
+        this.curacion = curacion;
+    }
 
     @Override
     public String toString() {
-        return "Maiar{" + "baston=" + baston + ", Sombrero=" + Sombrero + '}';
+        return super.toString();
     }
     
     
