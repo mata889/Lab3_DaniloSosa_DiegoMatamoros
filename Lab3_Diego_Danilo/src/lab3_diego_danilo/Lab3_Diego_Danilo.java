@@ -8,6 +8,7 @@ package lab3_diego_danilo;
 /**
  *
  * @author Family
+public class Lab3_Diego_Danilo {
  */
 public class Lab3_Diego_Danilo {
 
@@ -17,6 +18,7 @@ public class Lab3_Diego_Danilo {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola");
+        System.out.println("Sape");
     }
     
 }
