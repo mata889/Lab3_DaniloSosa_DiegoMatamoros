@@ -9,6 +9,6 @@ package lab3_diego_danilo;
  *
  * @author Danilo Sosa
  */
-public class NewClass {
+public class Elfos extends Integrantes{
     
 }
