@@ -222,6 +222,79 @@ public class Principal extends javax.swing.JFrame {
         jLabel71 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
         gr_maiar = new javax.swing.ButtonGroup();
+        jd_lugares = new javax.swing.JDialog();
+        jLabel33 = new javax.swing.JLabel();
+        bt_comarca = new javax.swing.JButton();
+        bt_gondor = new javax.swing.JButton();
+        bt_mordor = new javax.swing.JButton();
+        jd_comarca = new javax.swing.JDialog();
+        jTabbedPane7 = new javax.swing.JTabbedPane();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel72 = new javax.swing.JLabel();
+        Hobbits = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        tf_cantidadHobbbits = new javax.swing.JTextField();
+        tf_casa = new javax.swing.JTextField();
+        bt_modificarC = new javax.swing.JButton();
+        jLabel81 = new javax.swing.JLabel();
+        tf_extension = new javax.swing.JTextField();
+        jLabel82 = new javax.swing.JLabel();
+        tf_integrantes = new javax.swing.JTextField();
+        jPanel16 = new javax.swing.JPanel();
+        tf_cantidadHobbbits1 = new javax.swing.JTextField();
+        tf_casa1 = new javax.swing.JTextField();
+        bt_modificarC1 = new javax.swing.JButton();
+        Hobbits1 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        cb_comarca = new javax.swing.JComboBox<>();
+        jLabel83 = new javax.swing.JLabel();
+        tf_extension1 = new javax.swing.JTextField();
+        jLabel84 = new javax.swing.JLabel();
+        tf_integrantes1 = new javax.swing.JTextField();
+        jd_Gondor = new javax.swing.JDialog();
+        jTabbedPane8 = new javax.swing.JTabbedPane();
+        jPanel17 = new javax.swing.JPanel();
+        tf_cantidadGondor = new javax.swing.JTextField();
+        bt_modificarC2 = new javax.swing.JButton();
+        Hobbits2 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        tf_extension2 = new javax.swing.JTextField();
+        jLabel86 = new javax.swing.JLabel();
+        tf_integrantes2 = new javax.swing.JTextField();
+        jPanel18 = new javax.swing.JPanel();
+        tf_cantidadGondor1 = new javax.swing.JTextField();
+        bt_modificarC3 = new javax.swing.JButton();
+        Hobbits3 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        cb_Gondor = new javax.swing.JComboBox<>();
+        jLabel87 = new javax.swing.JLabel();
+        tf_extension3 = new javax.swing.JTextField();
+        jLabel88 = new javax.swing.JLabel();
+        tf_integrantes3 = new javax.swing.JTextField();
+        jd_Mordor = new javax.swing.JDialog();
+        jTabbedPane9 = new javax.swing.JTabbedPane();
+        jPanel19 = new javax.swing.JPanel();
+        tf_cantidadMordor = new javax.swing.JTextField();
+        bt_modificarC4 = new javax.swing.JButton();
+        Hobbits4 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        tf_extension4 = new javax.swing.JTextField();
+        jLabel90 = new javax.swing.JLabel();
+        tf_integrantes4 = new javax.swing.JTextField();
+        jPanel20 = new javax.swing.JPanel();
+        tf_cantidadMordor2 = new javax.swing.JTextField();
+        bt_modificarC5 = new javax.swing.JButton();
+        Hobbits5 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        cb_mordor = new javax.swing.JComboBox<>();
+        jLabel91 = new javax.swing.JLabel();
+        tf_extension5 = new javax.swing.JTextField();
+        jLabel92 = new javax.swing.JLabel();
+        tf_integrantes5 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         bt_pueblos = new javax.swing.JButton();
         bt_bestias = new javax.swing.JButton();
@@ -1574,6 +1647,583 @@ public class Principal extends javax.swing.JFrame {
             .addComponent(jTabbedPane6)
         );
 
+        jLabel33.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel33.setText("Lugares");
+
+        bt_comarca.setText("La Comarca");
+        bt_comarca.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_comarcaMouseClicked(evt);
+            }
+        });
+        bt_comarca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt_comarcaActionPerformed(evt);
+            }
+        });
+
+        bt_gondor.setText("Gondor");
+        bt_gondor.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_gondorMouseClicked(evt);
+            }
+        });
+        bt_gondor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt_gondorActionPerformed(evt);
+            }
+        });
+
+        bt_mordor.setText("Mordor");
+        bt_mordor.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_mordorMouseClicked(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jd_lugaresLayout = new javax.swing.GroupLayout(jd_lugares.getContentPane());
+        jd_lugares.getContentPane().setLayout(jd_lugaresLayout);
+        jd_lugaresLayout.setHorizontalGroup(
+            jd_lugaresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jd_lugaresLayout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(bt_comarca)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addGroup(jd_lugaresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jd_lugaresLayout.createSequentialGroup()
+                        .addComponent(jLabel33)
+                        .addGap(246, 246, 246))
+                    .addGroup(jd_lugaresLayout.createSequentialGroup()
+                        .addComponent(bt_gondor, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(bt_mordor, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(78, 78, 78))))
+        );
+        jd_lugaresLayout.setVerticalGroup(
+            jd_lugaresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jd_lugaresLayout.createSequentialGroup()
+                .addComponent(jLabel33)
+                .addGap(18, 18, 18)
+                .addGroup(jd_lugaresLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_comarca)
+                    .addComponent(bt_gondor)
+                    .addComponent(bt_mordor))
+                .addGap(0, 36, Short.MAX_VALUE))
+        );
+
+        Hobbits.setText("Hobbits");
+
+        jLabel73.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel73.setText("La Comarca");
+
+        jLabel74.setText("Cuantas casas");
+
+        tf_cantidadHobbbits.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadHobbbitsActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC.setText("Agregar");
+
+        jLabel81.setText("Extension");
+
+        tf_extension.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_extensionActionPerformed(evt);
+            }
+        });
+
+        jLabel82.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addComponent(jLabel74)
+                        .addGap(55, 55, 55)
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(tf_cantidadHobbbits, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                            .addComponent(tf_casa))
+                        .addContainerGap())
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addComponent(jLabel72)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addComponent(Hobbits)
+                                .addGap(325, 336, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel15Layout.createSequentialGroup()
+                                        .addComponent(jLabel82)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(tf_integrantes))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel15Layout.createSequentialGroup()
+                                        .addComponent(jLabel81)
+                                        .addGap(72, 72, 72)
+                                        .addComponent(tf_extension)))
+                                .addGap(196, 196, 196))))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                        .addComponent(jLabel73)
+                        .addGap(143, 143, 143))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
+                        .addComponent(bt_modificarC)
+                        .addGap(78, 78, 78))))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addComponent(jLabel73)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(jLabel72)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel81))
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(tf_extension, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel82)
+                    .addComponent(tf_integrantes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Hobbits)
+                    .addComponent(tf_cantidadHobbbits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel74)
+                    .addComponent(tf_casa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                .addComponent(bt_modificarC)
+                .addGap(37, 37, 37))
+        );
+
+        jTabbedPane7.addTab("Crear", jPanel15);
+
+        tf_cantidadHobbbits1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadHobbbits1ActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC1.setText("Agregar");
+        bt_modificarC1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt_modificarC1ActionPerformed(evt);
+            }
+        });
+
+        Hobbits1.setText("Hobbits");
+
+        jLabel75.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel75.setText("La Comarca");
+
+        jLabel76.setText("Cuantas casas");
+
+        cb_comarca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cb_comarcaActionPerformed(evt);
+            }
+        });
+
+        jLabel83.setText("Extension");
+
+        jLabel84.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addGroup(jPanel16Layout.createSequentialGroup()
+                                    .addComponent(jLabel76)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(tf_casa1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(Hobbits1)
+                                        .addComponent(jLabel84)
+                                        .addComponent(jLabel83))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                                    .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(tf_cantidadHobbbits1, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(tf_integrantes1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
+                                            .addComponent(tf_extension1, javax.swing.GroupLayout.Alignment.LEADING)))))
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGap(137, 137, 137)
+                                .addComponent(bt_modificarC1))))
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(cb_comarca, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel75)))
+                .addContainerGap(140, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel75)
+                    .addComponent(cb_comarca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_extension1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel83))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_integrantes1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel84))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Hobbits1)
+                    .addComponent(tf_cantidadHobbbits1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(36, 36, 36)
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel76)
+                    .addComponent(tf_casa1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 47, Short.MAX_VALUE)
+                .addComponent(bt_modificarC1)
+                .addGap(21, 21, 21))
+        );
+
+        jTabbedPane7.addTab("Modificar", jPanel16);
+
+        javax.swing.GroupLayout jd_comarcaLayout = new javax.swing.GroupLayout(jd_comarca.getContentPane());
+        jd_comarca.getContentPane().setLayout(jd_comarcaLayout);
+        jd_comarcaLayout.setHorizontalGroup(
+            jd_comarcaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane7)
+        );
+        jd_comarcaLayout.setVerticalGroup(
+            jd_comarcaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane7)
+        );
+
+        tf_cantidadGondor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadGondorActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC2.setText("Agregar");
+
+        Hobbits2.setText("Numeros de paraje secreto");
+
+        jLabel77.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel77.setText("Gondor");
+
+        jLabel85.setText("Extension");
+
+        jLabel86.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGap(34, 34, 34)
+                .addComponent(Hobbits2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                .addContainerGap(52, Short.MAX_VALUE)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                        .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(122, 122, 122))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel86)
+                            .addComponent(jLabel85))
+                        .addGap(48, 48, 48)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(tf_integrantes2, javax.swing.GroupLayout.DEFAULT_SIZE, 49, Short.MAX_VALUE)
+                            .addComponent(tf_extension2))
+                        .addGap(134, 134, 134))))
+            .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel17Layout.createSequentialGroup()
+                    .addGap(211, 211, 211)
+                    .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(bt_modificarC2)
+                        .addComponent(tf_cantidadGondor, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addContainerGap(113, Short.MAX_VALUE)))
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addGap(25, 25, 25)
+                .addComponent(jLabel77)
+                .addGap(53, 53, 53)
+                .addComponent(Hobbits2)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_integrantes2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel86))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_extension2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel85))
+                .addContainerGap(82, Short.MAX_VALUE))
+            .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel17Layout.createSequentialGroup()
+                    .addGap(104, 104, 104)
+                    .addComponent(tf_cantidadGondor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(100, 100, 100)
+                    .addComponent(bt_modificarC2)
+                    .addContainerGap(25, Short.MAX_VALUE)))
+        );
+
+        jTabbedPane8.addTab("Añadir", jPanel17);
+
+        tf_cantidadGondor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadGondor1ActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC3.setText("Agregar");
+
+        Hobbits3.setText("Numeros de paraje secreto");
+
+        jLabel78.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel78.setText("Gondor");
+
+        jLabel87.setText("Extension");
+
+        jLabel88.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addComponent(jLabel87)
+                        .addGap(154, 154, 154)
+                        .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(bt_modificarC3)
+                            .addGroup(jPanel18Layout.createSequentialGroup()
+                                .addComponent(tf_extension3)
+                                .addGap(15, 15, 15))))
+                    .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel18Layout.createSequentialGroup()
+                            .addComponent(cb_Gondor, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(45, 45, 45)
+                            .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                            .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(Hobbits3)
+                                .addComponent(jLabel88))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(tf_cantidadGondor1, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                                .addComponent(tf_integrantes3)))))
+                .addContainerGap(90, Short.MAX_VALUE))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel78)
+                    .addComponent(cb_Gondor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(23, 23, 23)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Hobbits3)
+                    .addComponent(tf_cantidadGondor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_integrantes3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel88))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_extension3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel87))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
+                .addComponent(bt_modificarC3)
+                .addGap(41, 41, 41))
+        );
+
+        jTabbedPane8.addTab("Modificar", jPanel18);
+
+        javax.swing.GroupLayout jd_GondorLayout = new javax.swing.GroupLayout(jd_Gondor.getContentPane());
+        jd_Gondor.getContentPane().setLayout(jd_GondorLayout);
+        jd_GondorLayout.setHorizontalGroup(
+            jd_GondorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane8)
+        );
+        jd_GondorLayout.setVerticalGroup(
+            jd_GondorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane8)
+        );
+
+        tf_cantidadMordor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadMordorActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC4.setText("Agregar");
+
+        Hobbits4.setText("Numero de guardianes");
+
+        jLabel79.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel79.setText("Mordor");
+
+        jLabel89.setText("Extension");
+
+        jLabel90.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
+        jPanel19.setLayout(jPanel19Layout);
+        jPanel19Layout.setHorizontalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel19Layout.createSequentialGroup()
+                .addContainerGap(135, Short.MAX_VALUE)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel79, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_modificarC4))
+                .addGap(125, 125, 125))
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Hobbits4)
+                    .addComponent(jLabel90)
+                    .addComponent(jLabel89))
+                .addGap(68, 68, 68)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(tf_cantidadMordor, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                    .addComponent(tf_integrantes4)
+                    .addComponent(tf_extension4))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel19Layout.setVerticalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel79)
+                .addGap(23, 23, 23)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Hobbits4)
+                    .addComponent(tf_cantidadMordor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_integrantes4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel90))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_extension4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel89))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
+                .addComponent(bt_modificarC4)
+                .addGap(71, 71, 71))
+        );
+
+        jTabbedPane9.addTab("Añadir", jPanel19);
+
+        tf_cantidadMordor2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cantidadMordor2ActionPerformed(evt);
+            }
+        });
+
+        bt_modificarC5.setText("Agregar");
+
+        Hobbits5.setText("Numero de guardianes");
+
+        jLabel80.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel80.setText("Mordor");
+
+        jLabel91.setText("Extension");
+
+        jLabel92.setText("Numero de Integrantes");
+
+        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
+        jPanel20.setLayout(jPanel20Layout);
+        jPanel20Layout.setHorizontalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addComponent(cb_mordor, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                        .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Hobbits5)
+                            .addComponent(jLabel92)
+                            .addComponent(jLabel91))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(tf_cantidadMordor2, javax.swing.GroupLayout.DEFAULT_SIZE, 57, Short.MAX_VALUE)
+                            .addComponent(tf_integrantes5)
+                            .addComponent(tf_extension5))
+                        .addGap(14, 14, 14)))
+                .addGap(125, 125, 125))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(bt_modificarC5)
+                .addGap(85, 85, 85))
+        );
+        jPanel20Layout.setVerticalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel80))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGap(34, 34, 34)
+                        .addComponent(cb_mordor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Hobbits5)
+                    .addComponent(tf_cantidadMordor2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tf_integrantes5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel92))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel91)
+                    .addComponent(tf_extension5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
+                .addComponent(bt_modificarC5)
+                .addGap(32, 32, 32))
+        );
+
+        jTabbedPane9.addTab("Modificar", jPanel20);
+
+        javax.swing.GroupLayout jd_MordorLayout = new javax.swing.GroupLayout(jd_Mordor.getContentPane());
+        jd_Mordor.getContentPane().setLayout(jd_MordorLayout);
+        jd_MordorLayout.setHorizontalGroup(
+            jd_MordorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane9)
+        );
+        jd_MordorLayout.setVerticalGroup(
+            jd_MordorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jTabbedPane9)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
@@ -1592,6 +2242,16 @@ public class Principal extends javax.swing.JFrame {
 
         bt_lugares.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         bt_lugares.setText("Crear Lugares");
+        bt_lugares.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                bt_lugaresMouseClicked(evt);
+            }
+        });
+        bt_lugares.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bt_lugaresActionPerformed(evt);
+            }
+        });
 
         bt_simulaciones.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         bt_simulaciones.setText("Simulaciones");
@@ -1702,10 +2362,85 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_bt_maiarMouseClicked
 
     private void bt_guardarEMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_guardarEMouseClicked
-        
-        
-        
+
+
     }//GEN-LAST:event_bt_guardarEMouseClicked
+
+    private void bt_lugaresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt_lugaresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bt_lugaresActionPerformed
+
+    private void bt_lugaresMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_lugaresMouseClicked
+        jd_lugares.setModal(true);
+        jd_lugares.pack();
+        jd_lugares.setLocationRelativeTo(this);
+        jd_lugares.setVisible(true);
+    }//GEN-LAST:event_bt_lugaresMouseClicked
+
+    private void tf_cantidadHobbbitsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadHobbbitsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadHobbbitsActionPerformed
+
+    private void tf_cantidadHobbbits1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadHobbbits1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadHobbbits1ActionPerformed
+
+    private void bt_modificarC1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt_modificarC1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bt_modificarC1ActionPerformed
+
+    private void cb_comarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cb_comarcaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cb_comarcaActionPerformed
+
+    private void bt_comarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt_comarcaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bt_comarcaActionPerformed
+
+    private void tf_cantidadGondorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadGondorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadGondorActionPerformed
+
+    private void tf_cantidadGondor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadGondor1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadGondor1ActionPerformed
+
+    private void tf_cantidadMordorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadMordorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadMordorActionPerformed
+
+    private void tf_cantidadMordor2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cantidadMordor2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cantidadMordor2ActionPerformed
+
+    private void bt_gondorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt_gondorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_bt_gondorActionPerformed
+
+    private void bt_gondorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_gondorMouseClicked
+        jd_Gondor.setModal(true);
+        jd_Gondor.pack();
+        jd_Gondor.setLocationRelativeTo(this);
+        jd_Gondor.setVisible(true);
+    }//GEN-LAST:event_bt_gondorMouseClicked
+
+    private void bt_mordorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_mordorMouseClicked
+        jd_Mordor.setModal(true);
+        jd_Mordor.pack();
+        jd_Mordor.setLocationRelativeTo(this);
+        jd_Mordor.setVisible(true);
+    }//GEN-LAST:event_bt_mordorMouseClicked
+
+    private void bt_comarcaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_bt_comarcaMouseClicked
+        jd_comarca.setModal(true);
+        jd_comarca.pack();
+        jd_comarca.setLocationRelativeTo(this);
+        jd_comarca.setVisible(true);
+    }//GEN-LAST:event_bt_comarcaMouseClicked
+
+    private void tf_extensionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_extensionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_extensionActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1743,9 +2478,17 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Hobbits;
+    private javax.swing.JLabel Hobbits1;
+    private javax.swing.JLabel Hobbits2;
+    private javax.swing.JLabel Hobbits3;
+    private javax.swing.JLabel Hobbits4;
+    private javax.swing.JLabel Hobbits5;
     private javax.swing.JButton bt_bestias;
+    private javax.swing.JButton bt_comarca;
     private javax.swing.JButton bt_elfos;
     private javax.swing.JButton bt_enanos;
+    private javax.swing.JButton bt_gondor;
     private javax.swing.JButton bt_guardarE;
     private javax.swing.JButton bt_guardarEn;
     private javax.swing.JButton bt_guardarH;
@@ -1758,11 +2501,19 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JButton bt_integrantes;
     private javax.swing.JButton bt_lugares;
     private javax.swing.JButton bt_maiar;
+    private javax.swing.JButton bt_modificarC;
+    private javax.swing.JButton bt_modificarC1;
+    private javax.swing.JButton bt_modificarC2;
+    private javax.swing.JButton bt_modificarC3;
+    private javax.swing.JButton bt_modificarC4;
+    private javax.swing.JButton bt_modificarC5;
     private javax.swing.JButton bt_modificarE;
     private javax.swing.JButton bt_modificarEn;
     private javax.swing.JButton bt_modificarH;
+    private javax.swing.JButton bt_mordor;
     private javax.swing.JButton bt_pueblos;
     private javax.swing.JButton bt_simulaciones;
+    private javax.swing.JComboBox<Gondor> cb_Gondor;
     private javax.swing.JComboBox<Bestia> cb_bestiasE;
     private javax.swing.JComboBox<Bestia> cb_bestiasE1;
     private javax.swing.JComboBox<Bestia> cb_bestiasEn;
@@ -1773,9 +2524,11 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JComboBox<Bestia> cb_bestiasEn5;
     private javax.swing.JComboBox<Bestia> cb_bestiasH;
     private javax.swing.JComboBox<Bestia> cb_bestiasH1;
+    private javax.swing.JComboBox<LaComarca> cb_comarca;
     private javax.swing.JComboBox<Elfos> cb_elfos;
     private javax.swing.JComboBox<Enanos> cb_enanos;
     private javax.swing.JComboBox<Hombres> cb_hombres;
+    private javax.swing.JComboBox<Mordor> cb_mordor;
     private javax.swing.ButtonGroup gr_elfos;
     private javax.swing.ButtonGroup gr_enanos;
     private javax.swing.ButtonGroup gr_enanosH;
@@ -1819,6 +2572,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
@@ -1861,15 +2615,42 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -1883,13 +2664,20 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane4;
     private javax.swing.JTabbedPane jTabbedPane5;
     private javax.swing.JTabbedPane jTabbedPane6;
+    private javax.swing.JTabbedPane jTabbedPane7;
+    private javax.swing.JTabbedPane jTabbedPane8;
+    private javax.swing.JTabbedPane jTabbedPane9;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JDialog jd_Gondor;
+    private javax.swing.JDialog jd_Mordor;
+    private javax.swing.JDialog jd_comarca;
     private javax.swing.JDialog jd_elfos;
     private javax.swing.JDialog jd_enanos;
     private javax.swing.JDialog jd_hobbits;
     private javax.swing.JDialog jd_hombres;
     private javax.swing.JDialog jd_integrantes;
+    private javax.swing.JDialog jd_lugares;
     private javax.swing.JDialog jd_maiar;
     private javax.swing.JDialog jd_pueblos;
     private javax.swing.JRadioButton rd_arco;
@@ -1934,6 +2722,26 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JTextField tf_apellidoHo1;
     private javax.swing.JTextField tf_apellidoM;
     private javax.swing.JTextField tf_apellidoM1;
+    private javax.swing.JTextField tf_cantidadGondor;
+    private javax.swing.JTextField tf_cantidadGondor1;
+    private javax.swing.JTextField tf_cantidadHobbbits;
+    private javax.swing.JTextField tf_cantidadHobbbits1;
+    private javax.swing.JTextField tf_cantidadMordor;
+    private javax.swing.JTextField tf_cantidadMordor2;
+    private javax.swing.JTextField tf_casa;
+    private javax.swing.JTextField tf_casa1;
+    private javax.swing.JTextField tf_extension;
+    private javax.swing.JTextField tf_extension1;
+    private javax.swing.JTextField tf_extension2;
+    private javax.swing.JTextField tf_extension3;
+    private javax.swing.JTextField tf_extension4;
+    private javax.swing.JTextField tf_extension5;
+    private javax.swing.JTextField tf_integrantes;
+    private javax.swing.JTextField tf_integrantes1;
+    private javax.swing.JTextField tf_integrantes2;
+    private javax.swing.JTextField tf_integrantes3;
+    private javax.swing.JTextField tf_integrantes4;
+    private javax.swing.JTextField tf_integrantes5;
     private javax.swing.JTextField tf_nombreE;
     private javax.swing.JTextField tf_nombreE1;
     private javax.swing.JTextField tf_nombreEn;
